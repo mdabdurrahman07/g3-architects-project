@@ -301,8 +301,16 @@ footer > h3{
         width: 100%;
     }
     .ten-years-badge{
-        padding: 20px;
-        margin-left: 54.5px;
+        padding: 20px 28px ;
+        margin-left: 65.5px;
         top: 30px;
+        width: 100px;
+        height: 60px;
+    }
+    .ten-years-badge > h1{
+        font-size: 28px;
+    }
+    .ten-years-badge small{
+        font-size: 18px;
     }
 }
