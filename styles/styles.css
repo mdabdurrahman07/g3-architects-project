@@ -115,7 +115,7 @@ ul > li >  a{
     margin: auto;
     margin-bottom: 180px;
     margin-top: 35px;
-    gap: 80px;
+    gap: 120px;
 }
 .featured-two-title{
     color: var(--dark-01, #131313);
@@ -144,6 +144,27 @@ ul > li >  a{
     margin-top: 25px;
     padding: 38px 29px;
     margin-bottom: 15px;
+}
+.ten-years-badge{
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 45px 42px;
+    text-align: center;
+    color: white;
+    width: 200px;
+    height: 80px;
+    position: relative;
+    bottom: 130px;
+    margin-left: -60px;
+    
+    
+    
+}
+.ten-years-badge > h1{
+    font-size: 2.8rem;
+}
+.ten-years-badge  small{
+    font-size: 1.30rem;
 }
 /* featured related style end */
 /* fact related style start */
@@ -235,7 +256,11 @@ footer > h3{
 }
 /* media query  */
 @media screen and (max-width: 576px){
-    nav , .featured ,.achievement-container , .sponsor-img-container{
+    nav , 
+    .featured ,
+    .featured-two ,
+    .achievement-container ,
+    .sponsor-img-container{
         flex-direction: column;
     }
     .img-banner{
@@ -271,5 +296,13 @@ footer > h3{
     footer{
         padding: 20px;
         margin-bottom: 80px;
+    }
+    .featured-two-img-container img{
+        width: 100%;
+    }
+    .ten-years-badge{
+        padding: 20px;
+        margin-left: 54.5px;
+        top: 30px;
     }
 }
