@@ -109,6 +109,23 @@ ul > li >  a{
     margin-top: 19px;
 }
 /* featured related style end */
+/* fact related style start */
+.fact-title{
+    color: var(--dark-01, #131313);
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    
+
+}
+.fact-desc , .fact-title{
+    margin-left: 130px;
+}
+.fact-desc{
+    margin-bottom: 90px;
+}
+/* fact related style end */
+
 /* achievement related style start */
 
 .achievement-container{
@@ -137,10 +154,51 @@ ul > li >  a{
     margin-bottom: 10px;
 
 }
+/* achievement related style end */
+/* sponsor related style start */
+.sponsor{
+    text-align: center;
+}
+.sponsor-title{
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: var(--dark-01, #131313);
+    margin-bottom: 20px;
+    
+}
+.sponsor-description{
+    font-size: 1.rem;
+    font-weight: 500;
+    color: var(--dark-03, #727272);
+    margin-bottom: 40px;
+}
+.sponsor-img-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 140px;
+}
+/* sponsor related style end */
 
+footer{
+    border-radius: 8px;
+    background: #FFF4E7;
+    width: 70%;
+    margin: auto;
+    padding: 35px 100px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+footer > h3{
+    color: var(--dark-02, #424242);
+    font-size: 20px;
+    font-weight: 400;
+
+}
 /* media query  */
 @media screen and (max-width: 576px){
-    nav , .featured ,.achievement-container{
+    nav , .featured ,.achievement-container , .sponsor-img-container{
         flex-direction: column;
     }
     .img-banner{
@@ -166,5 +224,15 @@ ul > li >  a{
     .achievement-container{
         gap: 15px;
     }
-    
+    .fact-desc , .fact-title{
+       margin: 20px;
+       text-align: center;
+    }
+    .sponsor-img-container{
+        gap: 18px;
+    }
+    footer{
+        padding: 20px;
+        margin-bottom: 80px;
+    }
 }
